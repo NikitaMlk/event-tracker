@@ -1,0 +1,94 @@
+/* General Calendar Page Styles */
+.calendar-page {
+  margin: 70px 20px 50px; /* Adjust for header and footer */
+  text-align: center;
+}
+
+.month-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+/* Calendar Table Styles */
+.calendar-table {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.calendar-table th,
+.calendar-table td {
+  width: calc(100% / 7); /* Equal width for each day */
+  height: 55px; /* Reduced height of cells */
+  border: 1px solid #ddd;
+  vertical-align: top;
+  text-align: left;
+  padding: 1px; /* Reduced padding for smaller cells */
+}
+
+.calendar-table th {
+  background-color: #262d27;
+  color: white; /* Ensure header text is white */
+}
+
+/* General Day Styles */
+.day {
+  position: relative;
+}
+
+.day-number {
+  font-weight: bold;
+  margin-bottom: 1px; /* Adjusted for smaller spacing */
+}
+
+/* Event Day Styles */
+.event-day {
+  background-color: #7e3737; /* Default background, overridden by dynamic color */
+  border: 2px solid;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Event List Styles */
+.events-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.events-list li {
+  font-size: 0.85rem;
+  margin: 2px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.events-list li:hover {
+  opacity: 0.9; /* Add a hover effect to indicate interactivity */
+}
+
+/* Empty Day Styles */
+.empty {
+  background-color: #2b302c;
+}
+
+/* Events List Container Styles */
+.events-list-container {
+  margin-top: 20px;
+  text-align: left;
+  margin-bottom: 60px;
+}
+
+.events-list-container h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}

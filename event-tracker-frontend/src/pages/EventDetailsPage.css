@@ -1,0 +1,28 @@
+.event-details {
+    padding: 20px;
+  }
+  
+  .event-title {
+    margin-top: 30px; 
+  }
+  
+  .event-info {
+    margin-top: 20px;
+  }
+  
+  .image-placeholder {
+    width: 100%;
+    height: 380px;
+    background-color: #ddd;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .image-placeholder p {
+    text-align: center;
+  }
+  

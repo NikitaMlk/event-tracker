@@ -1,0 +1,7 @@
+  user: 'ob3xph5hsucud6xm@ethereal.email',
+  pass: '28HPsQMwDDHE6bWhfC',
+  smtp: { host: 'smtp.ethereal.email', port: 587, secure: false },
+  imap: { host: 'imap.ethereal.email', port: 993, secure: true },
+  pop3: { host: 'pop3.ethereal.email', port: 995, secure: true },
+  web: 'https://ethereal.email',
+  mxEnabled: false
